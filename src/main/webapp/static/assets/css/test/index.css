@@ -1,0 +1,9 @@
+/*============================默认样式：直接定义元素的样式=======================================*/
+
+.container{ margin-top:150px; padding:10px; background:#fff;  border:1px solid #eee; box-shadow:0 3px 8px #eee; border-radius:7px; max-width:750px}
+.form-group .label{float:left;line-height:20px;}
+.field .onelist,.field .twolist,.field .w150{
+    margin-right:10px;
+    margin-bottom:5px;
+    float:left;
+}

@@ -1,0 +1,73 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link type="text/css" rel="stylesheet" href="/static/assets/css/test/pintuer.css"/>
+    <link type="text/css" rel="stylesheet" href="/static/assets/css/test/index.css"/>
+    <link rel="stylesheet" href="/static/plugins/layui/css/layui.css">
+    <link rel="stylesheet" href="/static/assets/css/views/admin.css">
+    <style>
+        .layui-form-checkbox span{
+            height: 5%;
+        }
+    </style>
+</head>
+<body>
+<div class="layui-row layui-admin-mt10">
+            <span class="layui-breadcrumb">
+                <a href="">首页</a>
+                <a><cite>系统管理</cite></a>
+                <a><cite>试卷管理</cite></a>
+                <a><cite>试卷预览</cite></a>
+            </span>
+</div>
+<body style="background: url(/images/test_bg.jpg) center top / 100% no-repeat;">
+<!-- 内容区域 start -->
+<div class="container">
+    <p style="padding-top:10px"></p>
+    <div class="margin-large"><h1 class="text-center" id="testName"></h1></div>
+
+
+    <div class="margin-large">
+        <div class="panel">
+            <div class="panel-body"><p
+                    style="box-sizing: border-box; margin-top: 0px; margin-bottom: 15px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-stretch: inherit; line-height: 24px; font-family: &quot;Microsoft YaHei&quot;, simsun, &quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif; vertical-align: baseline; color: rgb(51, 51, 51); white-space: normal; background-color: rgb(255, 255, 255);">
+                <span style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; vertical-align: baseline;">&nbsp; &nbsp; 考前说明：</span>
+            </p>
+                <p class="bg padding">亲爱的同学们！欢迎来到传智播客.黑马程序员，以下是我们为你精心准备的测试题，请认真作答。测试的目的是为了检测咱们在这里学习的效果。请认真作答。</p>
+                <p class="bg videointro"></p>
+            </div>
+        </div>
+    </div>
+    <p style="padding-top:30px"></p>
+
+    <form method="post" class="form-x layui-form" action="#">
+        <div id="singleItemArea">
+
+        </div>
+
+        <div id="multiItemArea">
+
+        </div>
+        <div id="codeItemArea">
+        </div>
+
+        <p style="padding-top:30px"></p>
+        <div class="margin-large text-center"><input type="hidden" name="146[cid]" value="146">
+            <button class="button button-small bg-back "><span style="font-size:22px">提 交</span><br><span
+                    style="font-size:12px">(仅可提交一次)</span></button>
+        </div>
+    </form>
+
+
+    <p class="text-center height-large">©JavaEE教学辅助系统</p>
+</div>
+</body>
+
+</body>
+<script type="text/javascript" src="/static/plugins/layui/layui.js"></script>
+<script type="text/javascript" src="/static/assets/js/stu/stu_test/stuHomeWork.js"></script>
+<script type="text/javascript" src="/static/assets/js/common.js"></script>
+</html>

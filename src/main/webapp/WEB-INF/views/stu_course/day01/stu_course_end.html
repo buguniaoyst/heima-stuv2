@@ -1,0 +1,489 @@
+<link rel="stylesheet" href="/static/assets/css/global.css">
+<div class="layui-row layui-admin-mt10">
+            <span class="layui-breadcrumb">
+                <a href="">首页</a>
+                <a><cite>学习辅助</cite></a>
+                <a><cite>课后测试</cite></a>
+            </span>
+</div>
+<hr>
+<div class="layui-row layui-col-space15">
+    <div class="layui-col-md12">
+        <div class="layui-tab layui-tab-card">
+            <div class="layui-tab-content start">
+                <fieldset class="layui-elem-field layui-field-title">
+                    <legend>课后测试</legend>
+                </fieldset>
+                <blockquote class="layui-elem-quote">
+                    <strong> 学习目标：</strong>
+                    <p>1.能够使用常见的DOS命令</p>
+                    <p>2.理解Java语言的跨平台实现原理</p>
+                    <p>3.理解JDK和JRE的组成和作用</p>
+                    <p>4. 能够配置环境变量JAVA_HOME</p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="layui-row layui-col-space15">
+    <div class="layui-col-md12">
+        <div style="position: relative; margin: 40px auto 6px 7px;">
+            <form class="layui-form layui-form-pane" id="wenjuanForm" action="#" method="post">
+                <div class="site-title">
+                    <fieldset><legend><a >第一部分【单选题】</a></legend></fieldset>
+                </div>
+                <div class="site-item">
+                    1、如果jdk安装路径为”d:\java\jdk”,需要将普通的path环境变量设置下列那个选项
+                </div>
+                <div class="site-item-param">
+                    <div id='qwe' class='matrix'>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="radio"  name="q1" value="A" title="A">
+                        </span>
+                            <lable>d:\java\jdk</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="radio"  name="q1" value="B" title="B">
+                        </span>
+                            <lable>d:\java\jdk\bin </lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="radio" name="q1" value="C" title="C">
+                        </span>
+
+                            <lable>d:\java\jdk\jre\bin </lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="radio" name="q1" value="D" title="D">
+                        </span>
+
+                            <lable>d:\java\jdk\jre </lable>
+                        </div>
+                        <span style='font-size: 25px'>
+                            <input type="radio" name="q1" value="E" title="E">
+                        </span>
+
+                        <lable>d:\java\jre\bin </lable>
+                    </div>
+                    </div>
+                <div class="site-title">
+                    <fieldset><legend><a >第二部分【多选题】</a></legend></fieldset>
+                </div>
+
+                <div class="site-item">
+                    1、关于JDK与JRE描述正确的是
+                </div>
+                <div class="site-item-param">
+                    <div id='qwe' class='matrix'>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="A" title="A">
+                        </span>
+                            <lable>JDK是指java的开发运行环境 </lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="B" title="B">
+                        </span>
+                            <lable>JRE是指java程序的运行环境</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="C" title="C">
+                        </span>
+
+                            <lable>运行java程序只需要JRE即可 </lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="D" title="D">
+                        </span>
+
+                            <lable>开发java程序必须安装JDK </lable>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="site-item">
+                    2、关于java配置Path描述正确的是
+                </div>
+                <div class="site-item-param">
+                    <div id='qwe' class='matrix'>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="A" title="A">
+                        </span>
+                            <lable>安装JDK必须配置PATH  </lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="B" title="B">
+                        </span>
+                            <lable>可以简化javac与java调用 </lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="C" title="C">
+                        </span>
+
+                            <lable>配置Path时，不同的路径使用英文分号隔开  </lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="D" title="D">
+                        </span>
+
+                            <lable>配置Path时，不同的路径使用中文分号隔开  </lable>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="site-item">
+                    3、请拼接出将Hello.java文件编译成Hello.class文件的命令_____；<br>
+                    请拼接出运行Hello.class文件的命令_____
+                </div>
+                <div class="site-item-param">
+                    <div id='qwe' class='matrix'>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="A" title="A">
+                        </span>
+                            <lable>hello  </lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="B" title="B">
+                        </span>
+                            <lable>java </lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="C" title="C">
+                        </span>
+
+                            <lable>.class  </lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="D" title="D">
+                        </span>
+
+                            <lable>.java</lable>
+                        </div>
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="E" title="E">
+                        </span>
+
+                        <lable>.javac</lable>
+                    </div>
+                    </div>
+
+                <div class="site-item">
+                    4、_____为Java的运行时环境，_____为Java的开发环境
+                </div>
+                <div class="site-item-param">
+                    <div id='qwe' class='matrix'>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="A" title="A">
+                        </span>
+                            <lable>JRM</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="B" title="B">
+                        </span>
+                            <lable>JVM</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="C" title="C">
+                        </span>
+
+                            <lable>JDK</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="D" title="D">
+                        </span>
+
+                            <lable>cmd</lable>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="site-item">
+                    5、选择下列DOS命令的作用(     )<br>
+                    进入某个文件夹_____<br>
+                    切换盘符_____<br>
+                    显示一个目录中的文件和子目录_____<br>
+                    直接返回盘符_____<br>
+                    清屏_____<br>
+                    返回上一级目录_____<br>
+                </div>
+                <div class="site-item-param">
+                    <div id='qwe' class='matrix'>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="A" title="A">
+                        </span>
+                            <lable>dir</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="B" title="B">
+                        </span>
+                            <lable>:</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="C" title="C">
+                        </span>
+
+                            <lable>cd</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="D" title="D">
+                        </span>
+
+                            <lable>cd..</lable>
+                        </div>
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="E" title="E">
+                        </span>
+
+                        <lable>cd\</lable>
+                    </div>
+                    <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="F" title="F">
+                        </span>
+
+                    <lable>CLS</lable>
+                </div>
+
+
+                <div class="site-item">
+                    6、Java程序源文件扩展名为_____，字节码文件扩展名为_____
+                </div>
+                <div class="site-item-param">
+                    <div id='qwe' class='matrix'>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="A" title="A">
+                        </span>
+                            <lable>.class</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="B" title="B">
+                        </span>
+                            <lable>.exe</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="C" title="C">
+                        </span>
+
+                            <lable>.java</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="D" title="D">
+                        </span>
+
+                            <lable>.txt</lable>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="site-item">
+                    7、选择java程序的编译运行流程<br>
+                    a.编写源代码文件，文件后缀名是_____
+                    b.对源代码使用_____命令进行编译，生成字节码文件，字节码文件后缀名是_____<br>
+                    c.使用_____命令运行字节码文件<br>
+                </div>
+                <div class="site-item-param">
+                    <div id='qwe' class='matrix'>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="A" title="A">
+                        </span>
+                            <lable>.class</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="B" title="B">
+                        </span>
+                            <lable>javac</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="C" title="C">
+                        </span>
+
+                            <lable>.exe</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="D" title="D">
+                        </span>
+
+                            <lable>.txt</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="E" title="E">
+                        </span>
+
+                            <lable>.java</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="F" title="F">
+                        </span>
+
+                            <lable>java</lable>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="site-item">
+                    8、请选择下列通用快捷键的作用<br>
+                    粘贴_____<br>
+                    全选_____<br>
+                    复制选中内容_____<br>
+                    保存_____<br>
+                    撤销操作_____<br>
+                    剪切_____<br>
+                    恢复操作_____<br>
+                </div>
+                <div class="site-item-param">
+                    <div id='qwe' class='matrix'>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="A" title="A">
+                        </span>
+                            <lable>Ctrl+C</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox"  name="q17" value="B" title="B">
+                        </span>
+                            <lable>Ctrl+V</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="C" title="C">
+                        </span>
+
+                            <lable>Ctrl+X</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="D" title="D">
+                        </span>
+
+                            <lable>Ctrl+A</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="E" title="E">
+                        </span>
+
+                            <lable>Ctrl+Z</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="F" title="F">
+                        </span>
+
+                            <lable>Ctrl+Y</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="G" title="G">
+                        </span>
+
+                            <lable>Ctrl+S</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="H" title="H">
+                        </span>
+
+                            <lable>Ctrl+F</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="I" title="I">
+                        </span>
+
+                            <lable>Ctrl+H</lable>
+                        </div>
+                        <div >
+                        <span style='font-size: 25px'>
+                            <input type="checkbox" name="q17" value="J" title="J">
+                        </span>
+
+                            <lable>Ctrl+P</lable>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="site-title">
+                    <fieldset><legend><a >第三部分【编程题】</a></legend></fieldset>
+                </div>
+                <div class="layui-form-item layui-form-text">
+                    <label class="layui-form-label" style="height: 136px;">1、创建一个类Test1，在控制台输出以下内容：<br>
+                        姓名：王洋<br>
+                        年龄：22<br>
+                        性别：男<br>
+                        职业：学生<br>
+                        住址：北京市昌平区北七家镇宏福科技园修正大厦<br></label>
+                    <div class="layui-input-block">
+                        <textarea placeholder="请将您的代码粘贴到此处" name="q24" class="layui-textarea"></textarea>
+                    </div>
+                </div>
+                <div class="layui-form-item layui-form-text">
+                    <label class="layui-form-label" style="height: 97px;">
+                        2、创建类Test2，在控制台打印3行话，格式如下;<br>
+                        善学如春起之苗，不见其增，日有所长<br>
+                        假学如磨刀之石，不见其损，年有所亏<br>
+                        加油吧！少年<br>
+                    </label>
+                    <div class="layui-input-block">
+                        <textarea placeholder="请将您的代码粘贴到此处" name="q24" class="layui-textarea"></textarea>
+                    </div>
+                </div>
+                <div class="layui-form-item layui-form-text">
+                    <label class="layui-form-label" style="height: 35px;">3、使用代码完成：定义2个int类型变量，计算出两个变量的和，差，乘积和除运算
+                    </label>
+                    <div class="layui-input-block">
+                        <textarea placeholder="请将您的代码粘贴到此处" name="q24" class="layui-textarea"></textarea>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/static/assets/js/stu/stu_course/stu_course_end.js"></script>
