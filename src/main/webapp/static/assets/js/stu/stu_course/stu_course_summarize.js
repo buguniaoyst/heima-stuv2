@@ -4,7 +4,7 @@ layui.use(['form', 'table', 'element','jquery'], function () {
         ,$ = layui.jquery
         , form = layui.form;
     element.render();
-
+    form.render();
 
 
 

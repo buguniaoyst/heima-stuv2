@@ -21,19 +21,19 @@ public class StudentController {
     private StudentService studentService;
 
     @RequestMapping(value = "login",method = RequestMethod.POST)
-    public ResponseEntity<Map<String,Object>> login(StudentInfo studentInfo, HttpSession session) {
+    public String login(StudentInfo studentInfo, HttpSession session) {
 
         StudentInfo loginStu = studentService.login(studentInfo);
         Map<String,Object> map = new HashMap<>();
         if (null == loginStu) {
             map.put("status", "failure");
-            return new ResponseEntity<>(map, HttpStatus.OK);
+            return "redirect:/rest/login";
         }
         //将用户的数据存储在session中
         session.setAttribute("loginStu",loginStu);
         map.put("status", "success");
         map.put("loginUser", loginStu);
-        return new ResponseEntity<>(map, HttpStatus.OK);
+        return "redirect:/rest/index?userName="+loginStu.getStudentName();
     }
 
 }

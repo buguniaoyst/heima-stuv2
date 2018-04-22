@@ -34,26 +34,23 @@ layui.use(['form','jquery'], function () {
         ]
     });
 
-
-    $(function () {
-        //提交新增表单
-        $("#loginBtnId").click(function () {
-            var studentName =  $("#studentName").val();
-            var studentNo = $("#studentNo").val();
-            var password  = $("#password").val();
-            $.post('/rest/stu/login', {studentName:studentName,studentNo:studentNo,password:password}, function (result) {
-                var userName;
-                if(result.loginUser){
-                    userName = result.loginUser.studentName;
-                }
-                location.href = "/rest/index?userName="+userName;
-            });
-            return false;
-        });
-    })
-
-    // form.on('submit(loginSubmit)',function (data) {
     //
-    // });
+    // $(function () {
+    //     //提交新增表单
+    //     $("#loginBtnId").click(function () {
+    //         var studentName =  $("#studentName").val();
+    //         var studentNo = $("#studentNo").val();
+    //         var password  = $("#password").val();
+    //         $.post('/rest/stu/login', {studentName:studentName,studentNo:studentNo,password:password}, function (result) {
+    //             var userName;
+    //             if(result.loginUser){
+    //                 userName = result.loginUser.studentName;
+    //             }
+    //             window.location.href = "/rest/index?userName="+userName;
+    //         });
+    //        // return false;
+    //     });
+    // })
+
 
 });

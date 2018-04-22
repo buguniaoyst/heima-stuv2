@@ -14,7 +14,7 @@
 <body>
 <div class="layui-row user-login">
     <div class="layui-col-xs12 layui-col-sm12 layui-col-md12 layui-col-lg12">
-        <form class="login-form layui-form">
+        <form class="login-form layui-form" method="post" action="/rest/stu/login">
             <div class="login-header">
                 <h2>JavaEE教学辅助系统</h2>
                 <p>学生端登录页面</p>
@@ -41,7 +41,7 @@
                 <div class="layui-form-item">
                    <!-- <button class="layui-btn layui-btn-fluid" lay-submit lay-filter="loginSubmit">登 录
                     </button>-->
-                    <input id="loginBtnId" style="background-color: #009688" class="layui-btn layui-btn-fluid" lay-submit lay-filter="loginSubmit" value="登录">
+                    <input type="submit" style="background-color: #009688" class="layui-btn layui-btn-fluid" lay-submit lay-filter="loginSubmit" value="登录">
                 </div>
             </div>
         </form>

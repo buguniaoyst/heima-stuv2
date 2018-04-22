@@ -32,13 +32,17 @@ $(function () {
                 templateUrl: url_prefix + '/stu_course/day01/stu_course_before',
                 controller: static_prefix + '/stu_course/stu_course_before.js'
             },
-            'stu_course_starting_day01': {
-                templateUrl: url_prefix + '/stu_course/day01/stu_course_starting',
-                controller: static_prefix + '/stu_course/stu_course_starting.js'
+            'stu_course_review_day01': {
+                templateUrl: url_prefix + '/stu_course/day01/stu_course_review',
+                controller: static_prefix + '/stu_course/stu_course_review.js'
             },
-            'stu_course_end_day01': {
-                templateUrl: url_prefix + '/stu_course/day01/stu_course_end',
-                controller: static_prefix + '/stu_course/stu_course_end.js'
+            'stu_course_test_day01': {
+                templateUrl: url_prefix + '/stu_course/day01/stu_course_test',
+                controller: static_prefix + '/stu_course/stu_course_test.js'
+            },
+            'stu_course_summarize_day01': {
+                templateUrl: url_prefix + '/stu_course/day01/stu_course_summarize',
+                controller: static_prefix + '/stu_course/stu_course_summarize.js'
             },
             'cate': {
                 templateUrl: url_prefix + 'cate',
